@@ -30,7 +30,7 @@ function getFormData() {
         localStorage.setItem('userInfo' ,JSON.stringify(userList));
         document.getElementById('success').classList.remove('d-none');
         document.getElementById('emailError').classList.add('d-none');
-        window.location.href = 'login.html';
+        
     } else {
         document.getElementById('emailError').classList.remove('d-none');
         document.getElementById('success').classList.add('d-none');
