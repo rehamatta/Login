@@ -1,0 +1,41 @@
+body {
+    background-color: #243642;
+}
+h1 {
+    padding-bottom: 50px;
+}
+.lolo {
+    background-color: #243642;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);    
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 80px;
+}
+input {
+    margin-bottom: 20px;
+}
+header {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);  
+}
+header h1 {
+    padding-top: 30px !important;
+    padding-bottom: 20px !important;
+    padding: 0 20px;
+}
+header button {
+    background-color: transparent;
+    border: 2px solid gold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+header button a {
+    text-decoration: none;
+    color: gold;
+}
+
+.welcome {
+    margin-top: 13%;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);  
+    padding: 70px 0;
+}

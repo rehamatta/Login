@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+	<link rel="shortcut icon" href="./images/crud.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- register -->
+    
+    <form class="register">
+        <div class="container lolo d-flex flex-column w-50">
+            <h1>Smart Login System</h1>
+            <input required class="form-control my-3" type="text" name="" id="name" placeholder="Enter your name">
+            <input required class="form-control my-3" type="email" name="" id="email" placeholder="Enter your email">
+            <input required class="form-control my-3" type="password" placeholder="Enter password">
+            <p class="text-danger text-center d-none" id="emailError">email already exists</p>
+            <p class="text-success text-center d-none"id="success">Success</p>
+            <button class="btn btn-outline-info w-100 my-3" id="SignUp">Sign Up</button>
+            <p>You have an account? 
+                <a href="./login.html" class="text-white">sign in</a>
+            </p>
+        </div>
+    </form>
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/register.js"></script>
+</body> 
+</html>
